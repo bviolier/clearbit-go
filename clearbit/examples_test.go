@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/clearbit/clearbit-go/clearbit"
+	"github.com/bviolier/clearbit-go/clearbit"
 )
 
 func handleError(err error, resp *http.Response) {
